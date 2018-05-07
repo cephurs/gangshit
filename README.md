@@ -6,7 +6,43 @@ This is a collection of figlet fonts based on graffiti handstyles by a number of
 
 You can test these [here](http://patorjk.com/figlet-editor/#/edit) by selecting "Import" and pasting the contents of any of these files into the test box. 
 
-Currently, font1 only supports uppercase, and font2 supports both upper and lower case. These are both test fonts I made using generic hand styles. More to come soon!
+Currently, gangshit1 only supports uppercase, and gangshit2 supports both upper and lower case. These are both test fonts I made using generic hand styles. More to come soon!
+
+## Adding To Existing Figlet Frameworks ##
+
+You can use these fonts just like any other figlet font.
+
+### Pyfiglet ###
+
+You can install pyfiglet to render figlet fonts with Python
+
+Usually they're stored here on Linux systems
+    /usr/local/lib/python2.7/dist-packages/pyfiglet/fonts
+
+Usage:
+
+    >>> from pyfiglet import Figlet
+    >>> f = Figlet(font='gangshit1')
+    >>> print f.renderText('SUP')
+
+                      ..
+         .            do,              ...';ccc;.
+        ;o'           'ld:.     ''   'co:.  .':dxl,
+        ;xl.          .ox:.   .oxl. .cdloxl.    .lxx;
+       .;dxo.          ;xx,   .lkx; oxo..cxo'    .oxd
+     .,;codxxo,        'dkl.  .oxxc.xxd' .:xd;   .odd
+    .oo. .':dxd,       .okd'  'dxxo.xxl. .:xx;..lc,
+     lxo:'...,'.       .lkx,  :xxxx,:lc'  .:xdl:'
+    c. ':lool:,'.      .lxx; 'dxxxxc       .cxd'
+    oc.   ..,:lddc;.   .oxx;.lxxddxo.       .okl.
+    dx,        .,lxd:. .oxx::xxd;:xx;        ,dx:
+    cxc           'lxl.'dxxddxx; .okl.       .lkd'
+    'dd'           .od'.cxxxxx:.  ;xx;        :xx:
+    .:xo'           co. .':cc,    .cko.       ,dkc.
+     .:xd;.        .c'             .ox:       'dxc
+       'lxdc,.. .....              .cl'        ...
+          ';cllc:,'.
+
 
 ## Future Features ##
 * Multiple fonts with different sizes
