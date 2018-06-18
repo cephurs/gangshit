@@ -22,7 +22,7 @@ Usually they're stored here on Linux systems
 Usage:
 
     >>> from pyfiglet import Figlet
-    >>> f = Figlet(font='gangshit1')
+    >>> f = Figlet(font='gangshit1',width=200)  
     >>> print f.renderText('SUP')
 
                       ..
@@ -43,6 +43,7 @@ Usage:
        'lxdc,.. .....              .cl'        ...
           ';cllc:,'.
 
+The python figlet library by default uses a width of 80 columns, so make sure to specify the width when printing large words.
 
 ## Future Features ##
 * Multiple fonts with different sizes
